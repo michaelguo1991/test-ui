@@ -1,4 +1,4 @@
-import IGTButton from './src/button'
+import IGTButton from './src/index'
 
 IGTButton.install = Vue => {
     Vue.component(IGTButton.name, IGTButton);

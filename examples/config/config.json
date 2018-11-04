@@ -1,0 +1,35 @@
+{
+    "title": "Michael UI",
+    "nav": [
+        { "text": "指南", "path": "/" },
+        { "text": "Gitlab", "path": "http://baidu.com" }
+    ],
+    "sidebar": [
+        {
+            "title": "开发指南",
+            "children": [
+                { "text": "快速上手", "path": "/hand" },
+                { "text": "国际化", "path": "/igt" }
+            ]
+        },
+        {
+            "title": "基础组件",
+            "children": [
+                {
+                    "title": "Basic",
+                    "children": [
+                        { "text": "Layout 布局", "path": "/layout" },
+                        { "text": "Color 色彩", "path": "/color" }
+                    ]
+                },
+                {
+                    "title": "Form",
+                    "children": [
+                        { "text": "Checkbox 多选框", "path": "/igt-button" },
+                        { "text": "Time Picker 数据框", "path": "/igt-card" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
